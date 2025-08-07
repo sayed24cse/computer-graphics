@@ -228,10 +228,10 @@ void timer(int value) {
     boatx += 1.0;                 // Increment boat x-position
     birdx += 2.0;                 // Increment bird x-position
 
-    if (boatx > 120)              // Reset boat if out of screen
-        boatx = -120;
-    if (birdx > 120)              // Reset bird if out of screen
-        birdx = -120;
+    if (boatx > 150)              // Reset boat if out of screen
+        boatx = -150;
+    if (birdx > 150)              // Reset bird if out of screen
+        birdx = -150;
 
     glutPostRedisplay();         // Request screen redraw
     glutTimerFunc(30, timer, 0); // Call timer again after 30 milliseconds
