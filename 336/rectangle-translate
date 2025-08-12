@@ -47,7 +47,7 @@ int main(int argc, char** argv) {
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowSize(500, 500);
     glutInitWindowPosition(100, 100);
-    glutCreateWindow("Rectangle Translate");
+    glutCreateWindow("rectangle-translate");
 
     initOpenGL();
     glutDisplayFunc(display);
